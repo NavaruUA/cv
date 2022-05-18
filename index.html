@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OChumanovCV</title>
+</head>
+<body>
+    <img src="img/MyPhotoRed.png" alt="myPhoto" width="200">
+    <!-- добавить меню навигации -->
+    <!-- обычное резюме слишком скучно, по этому сдела сайт со своими портфолио  -->
+    <h1>Oleksandr Chumanov</h1>
+    <p><em>Я работаю <strong>фротдэнд разработчиком</strong> 6 месяцев</em></p>
+    <!-- использовать ЕМ вместо И для курсива -->
+    <!-- strong в место B -->
+    <p>Люблю путешествовать поэтому выбрал ИТ для удаленной работы</p>
+
+    <hr>
+
+    <h2>мои социальные сети</h2>
+    <ul>
+        <li><a href="https:" target="_blank">instagram</a></li>
+        <!-- target открывает ссылку в новой вкладке -->
+        <li><a href="https://t.me/">telegram</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>мои хоби</h2>
+    <ol>
+        <li>разработка</li>
+        <li>компьютерные игры</li>
+        <li>путешествия</li>
+    </ol>
+
+    <hr>
+
+    <h2>Опыт работы</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Vacancy</th>
+                <th>period</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hisense</td>
+                <td>prmoter</td>
+                <td>period</td>
+            </tr>
+            <tr>
+                <td>Boche Diesel Jihlava</td>
+                <td>worker</td>
+                <td>period</td>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>promoter</td>
+                <td>period</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot>для общего подсчета</tfoot> -->
+        <!-- <thead><tbody></tbody></thead> --не обязательные элементы, но упрощают стилизацию -->
+    </table>
+
+    <hr>
+
+    <h2>список проэктов</h2>
+    <a href="projects.html" target="_blank">Мои проэкты</a>
+
+    <hr>
+
+    <h2>Связаться со мной</h2>
+
+    <form action="/">
+        <!-- action указываем скрипт куда будет отпарвляться сообщения  -->
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="Введите свое имя">
+        <br>
+        <label for="email">Ваше email</label>
+        <input type="email" id="email" placeholder="Ваш электронный адрес">
+        <br>
+        <label for="text">Ваше сообщение:</label>
+        <br>
+        <textarea name="text" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="связаться">
+    </form>
+
+</body>
+</html>
